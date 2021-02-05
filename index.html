@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CoderCat</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <script src="js/main.js"></script>
 </head>
 <body>
-    <div class="flex">
-    <input type="text" name="todo" id="todoInput">
-    <input type="submit" value="add" onclick="alertInput()">
+<div class="flex">
+    <div class="content">
+        <form class="flex"onsubmit="formAdd(this); return false">
+            <input type="text" name="todo" id="todoInput" autocomplete="off" placeholder="Add your task...">
+            <button value="add" id="todoAddButton">add</button>
+        </form>
+        <div class="" id="todoDiv">
+<!--            <div class="todoItem" onclick="todoDelElement(this)">Hello</div> -->
+        </div>
     </div>
+</div>
 </body>
 </html>

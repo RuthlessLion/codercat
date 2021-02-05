@@ -1,3 +1,32 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    width: 60vw;
+}
+.todoItem{
+    font-family: 'Roboto', sans-serif;
+    font-size:xx-large;
+    font-weight: 300;
+    word-wrap: break-word;
+    margin: 4px 0;
+    border-radius: 3px;
+    border: solid 1px black;
+}
 #todoInput{
-    width: 1000px;
+    font-family: 'Roboto', sans-serif;
+    width: 60vw;
+    font-size: xx-large;
+    font-weight: 400;
+}
+#todoAddButton{
+    font-family: 'Roboto', sans-serif;
+    width: 4vw;
+    font-size: xx-large;
+    font-weight: 400;
 }
